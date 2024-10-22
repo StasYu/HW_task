@@ -1,3 +1,5 @@
+# task 1 github test process
+
 import random
 from typing import List
 from src.task_1 import is_prime
