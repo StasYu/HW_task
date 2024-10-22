@@ -1,0 +1,19 @@
+[project]
+name = "HW_task"
+version = "0.0.1"
+description = "Default template for PDM package"
+authors = [
+    {name = "StasYu", email = "stasugai101@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
